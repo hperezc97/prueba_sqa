@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runnner.Testrunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-PMS6BQ7" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31mTest.feature:3 ?[0m# Scenario: Yo como usuario quiero crear un usario en la pagina advantage shopping
+
+1 Scenarios (?[31m1 failed?[0m)
+4 Steps (?[31m1 failed?[0m, ?[32m3 passed?[0m)
+0m25,328s
+
+java.lang.Exception: Lo siento obtener el texto del:By.xpath: (//a[@id='menuUserLink'])[1]
+	at pom.BasePage.getText(BasePage.java:36)
+	at pom.HomePage.validateUser(HomePage.java:58)
+	at seleniumgluecode.Test.yoComoUsuarioQuieroValidarQueMiUsuarioSeCreo(Test.java:39)
+	at ?.Then yo como usuario quiero validar que mi usuario se creo(Test.feature:7)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

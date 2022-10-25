@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Yo como usuario quiero crear un usario en la pagina advantage shopping" tests="5" skipped="0" failures="2" errors="0" timestamp="2022-10-25T20:04:04" hostname="DESKTOP-PMS6BQ7" time="19.042">
+  <properties/>
+  <testcase name="Given Yo como usuario le doy click en el icono user" classname="Scenario: Yo como usuario quiero crear un usario en la pagina advantage shopping" time="0.0"/>
+  <testcase name="When en la ventana emergente quiero dar click en crear nueva cuenta" classname="Scenario: Yo como usuario quiero crear un usario en la pagina advantage shopping" time="0.0"/>
+  <testcase name="Then yo como usuario ingreso los datos de registro" classname="Scenario: Yo como usuario quiero crear un usario en la pagina advantage shopping" time="0.0"/>
+  <testcase name="Then yo como usuario quiero validar que mi usuario se creo" classname="Scenario: Yo como usuario quiero crear un usario en la pagina advantage shopping" time="0.003">
+    <failure message="java.lang.Exception: Lo siento obtener el texto del:By.xpath: (//a[@id='menuUserLink'])[1]" type="java.lang.Exception">java.lang.Exception: Lo siento obtener el texto del:By.xpath: (//a[@id='menuUserLink'])[1]
+	at pom.BasePage.getText(BasePage.java:36)
+	at pom.HomePage.validateUser(HomePage.java:58)
+	at seleniumgluecode.Test.yoComoUsuarioQuieroValidarQueMiUsuarioSeCreo(Test.java:39)
+	at ✽.Then yo como usuario quiero validar que mi usuario se creo(Test.feature:7)
+</failure>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: Yo como usuario quiero crear un usario en la pagina advantage shopping" time="25.374">
+    <failure message="java.lang.Exception: Lo siento obtener el texto del:By.xpath: (//a[@id='menuUserLink'])[1]" type="java.lang.Exception">java.lang.Exception: Lo siento obtener el texto del:By.xpath: (//a[@id='menuUserLink'])[1]
+	at pom.BasePage.getText(BasePage.java:36)
+	at pom.HomePage.validateUser(HomePage.java:58)
+	at seleniumgluecode.Test.yoComoUsuarioQuieroValidarQueMiUsuarioSeCreo(Test.java:39)
+	at ✽.Then yo como usuario quiero validar que mi usuario se creo(Test.feature:7)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 2840
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 25, 2022 3:04:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
